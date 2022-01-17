@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/dashboard.css') }}">
+	<meta charset="UTF-8">
+	<title>Dashboard</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="twitter.css">
+</head>
+<header>
+	<div class="logo">
+		<header>
+	<img src="{{url_for('static', filename='logoblue.png')}}" /></header>
+	</div>
+	<body style="background-color: rgba(206, 44, 44, 0.26);">
+		
+<main class="main">
+	<aside class="sidebar">
+	  <nav class="nav">
+		<ul>
+		  <li class="active"><a href="http://127.0.0.1:5000/following"><i class="fa fa-hashtag"></i>Explore</a></li>
+		  <li><a href=" http://127.0.0.1:5000/showtweet"><i class="fa fa-envelope"></i>Show TWEETS</a></li>
+		  <li class="active"><a href="http://127.0.0.1:5000/create_post"><i class="fa fa-user" ></i>New Tweet</a></li>
+		</ul>
+	  </nav>
+	</aside>
+
+				<div class="col-sm-3"></div>
+			</div>
+		</div>
+	</section>
+	<article class="container">
+		
+		
+		<section class="row newsFeed">
+
+						
+                        <!-- <a class="span1" href =" http://127.0.0.1:5000/create_post">New Tweet</a> -->
+						<a href = "http://127.0.0.1:5000/create_post"><button class="button button1">New Tweet</button></a>						
+						<a href =" http://127.0.0.1:5000/showtweet"><button class="button button2">Show Tweet</button></a>
+						<a href =" http://127.0.0.1:5000/following"><button class="button button3">Search User</button></a>
+
+		</section>
+	</article>
+	
+</body>
+</html>

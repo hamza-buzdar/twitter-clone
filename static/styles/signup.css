@@ -1,0 +1,92 @@
+.title {
+  font-size: 60px;
+  margin-left: 208px;
+    color: rgb(94, 149, 201)
+
+}
+.total{
+  margin-left: 160px;
+  margin-top: 110px;
+}
+
+.username{
+    margin: 85px;
+    font-size: 21px;
+    font-family: 'Circular-Loom';
+    box-sizing: border-box;
+}
+.pass{
+    margin: 85px;
+    font-size: 21px;
+    font-family: 'Circular-Loom';
+    box-sizing: border-box;
+}
+.cpass{
+    margin: 44px;
+    font-size: 21px;
+    font-family: 'Circular-Loom';
+    box-sizing: border-box;
+}
+.custom-field {
+
+    border-top: 20px solid transparent;
+  }
+/* .custom-field input:focus + .placeholder {
+    top: -10px;
+    font-size: 10px;
+    color: #222;
+  } */
+.custom-field {
+    font-size: 14px;
+    position: relative;
+  }
+.custom-field input {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #b2d6ee;
+    padding: 12px;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 14px;
+  }
+.custom-field .placeholder {
+    position: absolute;
+    left: 12px;
+    bottom: 50%;
+    top: 22px;  
+    transform: translateY(-50%);
+    width: calc(100% - 24px);  
+    color: rgb(17, 15, 15);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+.form{
+    box-sizing: content-box;
+
+
+}
+.button {
+    border: none;
+    color: rgb(122, 121, 117);
+    padding: 11px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: revert;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 20px 77px;
+  }
+  
+.button:hover {
+    background-color: #008CBA; 
+    color: white; 
+    border: 2px solid #4CAF50;
+    font-family: revert;
+}

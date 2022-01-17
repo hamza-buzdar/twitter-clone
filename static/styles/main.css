@@ -1,0 +1,53 @@
+ul { padding:0 } 
+
+.new{
+  align-items: right;
+}
+.newone{
+  align-items: right;
+}
+.form-all {
+
+  margin-left: 60%!important;
+
+}
+.button {
+    border: none;
+    color: white;
+    padding: 11px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:flex;
+    font-family: revert;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white;
+    color: #008CBA;
+    border: 2px solid #4CAF50;
+    font-family: -webkit-pictograph;
+    width: 126px;
+    
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #008CBA;
+    width: 126px;
+    font-family: -webkit-pictograph;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }

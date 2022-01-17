@@ -1,0 +1,151 @@
+div.logo{
+    position:sticky;
+    size: auto;
+    background: white;
+
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 0.428571;
+    color: #333;
+}
+img {
+    border: 0;
+    width: 96px;
+    margin-left: 49px;
+    margin-top: 28px;
+    margin-bottom: 19px;
+    background: white;
+    padding: 25px;
+}
+.sidebar {
+    position: fixed;
+    width: 21%;
+    height: 100vh;
+    background: white;
+    font-size: 0.75em;
+  }
+  
+  .nav {
+    position: relative;
+    margin: 0 15%;
+    text-align: right;
+    top: 26%;
+    transform: translateY(-50%);
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    list-style:none;
+  }
+    
+    li {
+      position: relative;
+      margin: 3.2em 0;
+    }
+      
+      a {
+        line-height: 3em;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 0.12em;
+        display: block;
+        transition: all ease-out 300ms;
+        font-size: 11px;
+      }
+      
+      .active a {
+        color: rgb(146, 236, 232);
+      }
+      
+      :not(.active)::after {
+        opacity: 0.2;
+      }
+      
+      :not(.active):hover a {
+        color: rgba(#FFF, 0.75);
+      }
+      
+      ::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 0.2em;
+        /* background: black; */
+        left: 0;
+        bottom: 0;
+        /* background-image: linear-gradient(to right, #5e42a6, #b74e91) */
+      }
+    
+.panel-default {
+    display: none !important;
+
+    } 
+/* .fa-envelope {
+    margin-left: 15px;
+}
+.fa-user{
+    margin:25px;
+}
+.fa-hashtag{
+    margin: 25px;
+} */
+
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin: 17px;
+    padding: 10px;
+}
+    
+.button {
+  border: none;
+  color: rgb(122, 121, 117);
+  padding: 11px 32px;
+  text-align: center;
+  text-decoration:none ;
+  display: flex;
+
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  margin: 4px 2px;
+  transition-duration: 0.9s;
+  cursor:pointer;
+  margin: 20px 77px;
+}
+
+.button:hover {
+  background-color: #008CBA; 
+  color: white; 
+  border: 2px solid #4CAF50;
+  font-family: revert;
+}
+.button1{
+
+  position: absolute;
+  top:25%;
+  right: 0;
+  width: 120px;
+  transform: translateY(-50%);
+}
+.button2{
+
+  position: absolute;
+  top:45%;
+  right: 0;
+  width: 120px;
+  transform: translateY(-50%);
+}
+.button3{
+
+  position: absolute;
+  top:65%;
+  right: 0;
+  width: 120px;
+  transform: translateY(-50%);
+}

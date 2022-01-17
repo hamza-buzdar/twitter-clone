@@ -1,0 +1,26 @@
+.title{
+    color: aqua;
+    font-family: sans-serif;
+    font-size: 27px;
+    margin-left: 259px;
+    margin-top: 26px;
+}
+.inTitle{
+    border-color: blueviolet;
+}
+.cont{
+    color: aqua;
+    font-family: sans-serif;
+    font-size: 27px;
+    margin-left: 235px;
+    margin-top: 26px;
+}
+.tarea{
+    color:blueviolet;
+}
+.tweet{
+    color:blueviolet;
+}
+.pbtn{
+    color:red;
+}

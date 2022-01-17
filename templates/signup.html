@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Sign Up</title>
+    <div class="title"> Sign Up</div> 
+
+    <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/signup.css') }}">
+    <style>
+        body {
+          background-image: url('static/mpnew.jpg');
+          background-size: 1600px 700px;
+          background-repeat: no-repeat;
+        }
+      </style>
+
+
+</head>
+<body>
+    <div class="total">
+    <form method="post">
+    <div class="form">    
+        <div>
+        <span class="username">Username</span>
+        </div>
+        <div>
+            <label class="custom-field">
+                <input type="text" name="name" placeholder="Enter Username"/>
+                <span class="placeholder">Enter Username</span>
+              </label>
+        </div>
+        <div>
+        <span class="pass">Password</span>
+        </div>
+        <div>
+            <label class="custom-field">
+                <input type="password" name="password"                     onmousedown="this.type='text'"
+                onmouseup="this.type='password'"
+                onmousemove="this.type='password'" placeholder="Enter Password"/>
+                <span class="placeholder">Enter Password</span>
+              </label>
+        </div>
+        <div>
+        <span class="cpass">Confirm Password</span>
+        </div>
+        <div>
+            <label class="custom-field">
+                <input type="password" name="confirmpassword"                     onmousedown="this.type='text'"
+                onmouseup="this.type='password'"
+                onmousemove="this.type='password'" placeholder="Confirm Password"/>
+                <span class="placeholder">Confirm Password</span>
+              </label>
+        </div>
+        <div>
+            <form action="http://127.0.0.1:5000/login" >
+                <button class="button button1">Submit</button>
+              </form>
+        </div>
+
+        <!-- <input class="btn" type="submit" value="signup" onclick=""> -->
+
+    </div>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>loginpage</title>
+    <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/signup.css') }}">
+ <link rel="stylesheet"
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="title">Login</div> 
+    <style>
+        body {
+          background-image: url('static/mpnew.jpg');
+          background-size: 1600px 700px;
+          background-repeat: no-repeat;
+        }
+      </style>
+</head>
+
+
+
+
+<body>
+    <div class="total">
+    <h1 style="color:white;font-size:25px"> Congrats kindly login here   </h1>
+    <form method="post">
+        <div class="form">    
+            <div>
+            <span class="username">Username</span>
+            </div>
+            <div>
+                <label class="custom-field">
+                    <input type="text" name="name" placeholder="Enter Username"/>
+                    <span class="placeholder">Enter Username</span>
+                  </label>
+            </div>
+            <div>
+            <span class="pass">Password</span>
+            </div>
+            <div>
+                <label class="custom-field">
+                    <input type="password" name="password"  
+                    onmousedown="this.type='text'"
+                    onmouseup="this.type='password'"
+                    onmousemove="this.type='password'" placeholder="Enter Password"/>
+               
+
+                    <span class="placeholder">Enter Password</span>
+                  
+                </label>
+            </div>
+        </div>
+        <div>
+            <form action="http://127.0.0.1:5000/dashboard" >
+                
+                <button class="button button1">SignIn</button>
+              </form>
+        </div>
+    </form>
+
+        {{ msg }}
+        <!-- <input type="text" name='name'> <input type="password" name='password'> -->
+    </div>
+    
+</body>
+</html>

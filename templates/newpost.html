@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/newpost.css') }}">
+  <style>
+    body {
+      background-image: url('static/mpnew.jpg');
+      background-size: 1600px 700px;
+      background-repeat: no-repeat;
+
+    }
+  </style>
+  <title>New Post</title>
+</head>
+<body>
+  <form method="POST">
+    <div class="title">
+    <label for="title">Title</label>
+  </div>
+  <div class="inTitle">
+    <input type="text" placeholder="Title" name="title" style="margin-left: 198px;">  </div>
+  <div class="cont">
+    <label for="content">Content </label>
+  </div>
+  <div class="tarea">   
+    <textarea placeholder=" What is in your mind..." rows="5" cols="60" name="postcontent" style="
+    margin-left: 49px;
+">
+         </textarea>
+        </div>  
+        <div class="tweet">  
+          <input type="submit" value="Tweet" style="
+          width: 12%;
+          margin-left: 195px;
+          height: 35px;
+          border: ridge;
+          background-color: skyblue;
+      ">  </div>
+  <div class="pbtn">
+    <button style="
+      height: 40px;
+      margin-top: 19px;
+      margin-left: 207px;
+      border: ridge;
+      border-color: aliceblue;
+  "><a href =" http://127.0.0.1:5000/showtweet">show my previous post</a></button>
+  </div>
+  </form>
+</body>
+</html>

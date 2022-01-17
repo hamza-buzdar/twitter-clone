@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>BLOG Creater</title>
+        <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}">
+        <center> <h1 style="color:white;font-size:45px"> Twitter </h1> </center>
+        <style>
+          body {
+            background-image: url('static/mpnew.jpg');
+            background-size: 1600px 700px;
+            background-repeat: no-repeat;
+
+          }
+        </style>
+    </head>
+    <body>
+
+        <p style="color:transparent;font-size:30px"> Its a Twitter clone <p>
+        <BR>
+          <div class="one">
+          <p style="color:black;font-size:30px">Choose What You want to do!!</p>        
+            <form class="new" action="http://127.0.0.1:5000/signup" >
+                <button class="button button1">SignUp</button>
+              </form>
+              <form class="newone" action="http://127.0.0.1:5000/login" >
+                <button class="button button2">SignIn</button>
+              </form>
+            </div>
+
+                </body>
+    
+
+</html>
